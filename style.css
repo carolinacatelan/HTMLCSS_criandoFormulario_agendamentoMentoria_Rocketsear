@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, input{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #E5E5E5;
+}
+
+body::before{
+    content: '';
+    width: 100%;
+    height: 368px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #535971;
+}
+
+.page{
+    width: 736px;
+    margin: auto;
+}
+
+header{
+    width: 319px;
+    margin-top: 74px;
+}
+
+header h1{
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: white;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+header p{
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+}
+
+form{
+    margin-top: 38px;
+    border-radius: 8px 8px 0 0;
+    background: #FAFAFC;
+    min-height: 300px;
+
+    padding: 64px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+fieldset{
+    border: none;
+}
+
+.fieldset-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+fieldset legend{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #535971;
+    text-transform: uppercase;
+
+    width: 100%;
+    border-bottom: 1px solid #E6E6F0;
+    padding-bottom: 16px;
+}
+
+.col-2{
+    display: flex;
+    gap: 20px;
+}
+
+.col-2 > div:nth-child(2){
+    width: 100%;
+}
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper label{
+    font-size: 14px;
+    line-height: 24px;
+    color: #4E4958;
+    margin-bottom: 8px;
+}
+
+.input-wrapper label span{
+    margin-left: 12px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C1BCCC;
+}
+
+.input-wrapper label span:hover{
+    color: #6C6A71;
+}
+
+.input-wrapper input{
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    height: 56px;
+    padding: 0 24px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #C1BCCC;
+}
+
+.fieldset-wrapper p{
+    font-weight: normal;
+    font-size: 20px;
+    font-weight: bold;
+    color: #535971;
+    text-transform: uppercase;
+}
+
+.segunda-mentoria{
+    margin-top: 24px;
+}
+
+.col-3{
+    display: flex;
+    gap: 20px;
+}
+
+.col-3 > div:nth-child(1){
+    width: 100%;
+}
+
+footer{
+    background: #535971;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 64px;
+    margin-bottom: 100px;
+    border-top: 1px solid #D6D6D6;
+    border-radius: 0 0 8px 8px;
+}
+
+footer .button{
+    height: 56px;
+    background: #FF5374;
+    border-radius: 20px;
+    border: 0;
+    font-family: 'Archivo';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+footer .button:hover{
+    background: #fe6180;
+    cursor: pointer;
+}
